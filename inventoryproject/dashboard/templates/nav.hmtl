@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
+    <a class="navbar-brand my-navbar-brand" href="#">  KE </a>
+
+    <!-- Toggle Button for Mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#ke-content">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallery-section">Gallery</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Add "Call now, get directions" link to the right -->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#contact-information">Call Now</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#location-section">Get Directions</a>
+        </li>
+    </ul>
+</nav>
