@@ -88,4 +88,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ---
 
-Thanks for your time..
+The project is in progress. Thanks for your time.:)
