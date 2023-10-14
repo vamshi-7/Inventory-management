@@ -34,11 +34,11 @@
             </tr>
         </thead>
         <tbody>
-            {% for tile in tiles %}
+            {% for tile in customer_purchases %}
             <tr>
-                <td>{{ tile.product_name }}</td>
-                <td>{{ tile.product_quantity }}</td>
-                <td>{{ tile.dealer_name }}</td>
+                <td>{{ tile.customer_name }}</td>
+                <td>{{ tile.tile }}</td>
+                <td>{{ tile.tile_quantity }}</td>
             </tr>
             {% empty %}
             <tr>
@@ -50,8 +50,9 @@
 
         <br>
         <br>
+
+        
     </div>
-    
 </body>
 {% include "footer.html" %}
 </html>
