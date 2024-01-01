@@ -20,7 +20,7 @@ def add_tile(request):
             #print(form.cleaned_data['product_name'])
             #print(form.cleaned_data['product_quantity'])
             #print(form.cleaned_data['dealer_name'])
-            return HttpResponse("Successfully added data..!!")  # Redirect to a page showing all tiles
+            return HttpResponse("Successfully added stock entries..!!")  # Redirect to a page showing all tiles
     else:
         form = TileForm()
     return render(request, 'tile_form.html', {'form': form})
