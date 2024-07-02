@@ -3,7 +3,6 @@ import random
 import pandas as pd
 import os
 
-
 fake = Faker()
 
 current_dir = os.getcwd()
@@ -28,13 +27,9 @@ for _ in range(200):
     quantity.append(random.choice(quantity_list))
 
 
-
-
 fake_df = pd.DataFrame({"Product Name": fake_names,
                         "Product Quantity": quantity,
                         "Dealer Name": dealer_names})
-
-
 
 fake_df.to_csv(data_filepath, 
                index_label=False,

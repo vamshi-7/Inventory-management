@@ -1,0 +1,19 @@
+/* styles.css */
+
+.my-navbar-brand {
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+
+.navbar {
+    border-radius: 10px; /* Adjust the radius as needed */
+}
+
+#content-heading {
+    background-color: slateblue;
+}
+
+
+h1 {
+    text-align: center;
+}
+

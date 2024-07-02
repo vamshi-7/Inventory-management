@@ -10,9 +10,4 @@ urlpatterns = [
          name='customer_purchase'),
     path('customerpurchase_list', views.customer_purchase_list,
          name="customerpurchase_list"),
-
 ]
-
-
-
-
